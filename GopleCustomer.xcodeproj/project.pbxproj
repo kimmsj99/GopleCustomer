@@ -1,0 +1,1204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E072CD21FDE79E80024F55B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E072CD11FDE79E80024F55B /* SearchViewController.swift */; };
+		0E1003B41FBA7A2400520779 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1003B11FBA7A2400520779 /* URL.swift */; };
+		0E1003B51FBA7A2400520779 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1003B21FBA7A2400520779 /* Extension.swift */; };
+		0E1003B61FBA7A2400520779 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1003B31FBA7A2400520779 /* Method.swift */; };
+		0E1003BC1FBAB4A300520779 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1003BB1FBAB4A300520779 /* HomeController.swift */; };
+		0E15E6F01FBABDDD00A948AD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15E6EF1FBABDDD00A948AD /* TabBarController.swift */; };
+		0E15E6F41FBAE06D00A948AD /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15E6F31FBAE06D00A948AD /* MapController.swift */; };
+		0E31A4151FE38804009C809E /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0E31A40E1FE38804009C809E /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0E31A41E1FE39D27009C809E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E31A4101FE38804009C809E /* NotificationService.swift */; };
+		0E31A41F1FE39EF1009C809E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E31A4101FE38804009C809E /* NotificationService.swift */; };
+		0E355F1E2003448E00A36325 /* HowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E355F1D2003448E00A36325 /* HowViewController.swift */; };
+		0E3B8D571FD7931800E872FF /* ChangePhoneController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E3B8D561FD7931800E872FF /* ChangePhoneController.xib */; };
+		0E3B8D591FD7A7F200E872FF /* ChangePhoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B8D581FD7A7F100E872FF /* ChangePhoneController.swift */; };
+		0E3C8B9B1FECD8A800935EBB /* HomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C8B9A1FECD8A800935EBB /* HomeDetailViewController.swift */; };
+		0E3C8B9D1FECFBB200935EBB /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C8B9C1FECFBB200935EBB /* CalenderViewController.swift */; };
+		0E568E8E1FD11A7E0059B32C /* JoinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E568E8D1FD11A7E0059B32C /* JoinController.swift */; };
+		0E5A918F1FCE5517000CA2FF /* SaleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5A918E1FCE5517000CA2FF /* SaleController.swift */; };
+		0E5A91911FCE5E2E000CA2FF /* BookmarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5A91901FCE5E2E000CA2FF /* BookmarkController.swift */; };
+		0E5A91931FCE5FAA000CA2FF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5A91921FCE5FAA000CA2FF /* WebViewController.swift */; };
+		0E66BE0F1FE0F01500F9578E /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E66BE0E1FE0F01500F9578E /* MonthYearPickerView.swift */; };
+		0E66BE131FE104B300F9578E /* ChangeScheduleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E66BE121FE104B300F9578E /* ChangeScheduleController.xib */; };
+		0E66BE151FE1086500F9578E /* ChangeScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E66BE141FE1086500F9578E /* ChangeScheduleController.swift */; };
+		0E73E5B41FE216930017AD6C /* NewWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E73E5B31FE216930017AD6C /* NewWebViewController.swift */; };
+		0E73E5B61FE219290017AD6C /* AlaramController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E73E5B51FE219290017AD6C /* AlaramController.xib */; };
+		0E73E5B81FE21A8F0017AD6C /* AlaramController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E73E5B71FE21A8F0017AD6C /* AlaramController.swift */; };
+		0E8AE0171FE795E700C8EC13 /* HamburgerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8AE0161FE795E700C8EC13 /* HamburgerController.swift */; };
+		0E8F08291FB96334001672EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F08281FB96334001672EC /* AppDelegate.swift */; };
+		0E8F082B1FB96334001672EC /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F082A1FB96334001672EC /* LoginController.swift */; };
+		0E8F082E1FB96334001672EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8F082C1FB96334001672EC /* Main.storyboard */; };
+		0E8F08301FB96334001672EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E8F082F1FB96334001672EC /* Assets.xcassets */; };
+		0E8F08331FB96334001672EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8F08311FB96334001672EC /* LaunchScreen.storyboard */; };
+		0E8F083E1FB96335001672EC /* GopleCustomerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F083D1FB96335001672EC /* GopleCustomerTests.swift */; };
+		0E8F08491FB96335001672EC /* GopleCustomerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F08481FB96335001672EC /* GopleCustomerUITests.swift */; };
+		0E8F085A1FB97878001672EC /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8F08591FB97878001672EC /* KakaoOpenSDK.framework */; };
+		0E92C61C1FD152CA00C4C86E /* Extension+HttpCookieStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E92C61B1FD152CA00C4C86E /* Extension+HttpCookieStorage.swift */; };
+		0E9758AE1FCF9D8E00C4CDED /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9758AD1FCF9D8E00C4CDED /* Variable.swift */; };
+		0ECABA901FBC0CCA00445315 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ECABA8F1FBC0CCA00445315 /* GoogleService-Info.plist */; };
+		0ECABA941FBC0D7100445315 /* CheckListTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECABA931FBC0D7100445315 /* CheckListTableController.swift */; };
+		0ECABA961FBC124D00445315 /* PushTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECABA951FBC124D00445315 /* PushTableController.swift */; };
+		0ECABA9A1FBC29BB00445315 /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECABA991FBC29BB00445315 /* NewsController.swift */; };
+		0ECABA9C1FBC2E6100445315 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECABA9B1FBC2E6100445315 /* MapKit.framework */; };
+		0ECABAA31FBC34CA00445315 /* NaverAuth.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0ECABAA21FBC34CA00445315 /* NaverAuth.bundle */; };
+		0ECABAA91FBC34D300445315 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECABAA71FBC34D300445315 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */; };
+		0ECABAAA1FBC34D300445315 /* libNaverLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECABAA81FBC34D300445315 /* libNaverLogin.a */; };
+		0EED4B161FD000BD00DB773F /* MyPageTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EED4B151FD000BD00DB773F /* MyPageTableController.swift */; };
+		0EED4B181FD000EF00DB773F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EED4B171FD000EF00DB773F /* NavigationController.swift */; };
+		0EEF80931FCE767D00DE7691 /* DaehanB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0EEF80901FCE766C00DE7691 /* DaehanB.otf */; };
+		0EEF80941FCE767D00DE7691 /* DaehanR.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0EEF80911FCE766C00DE7691 /* DaehanR.otf */; };
+		5720AB14FB155DA09CFA621B /* Pods_GopleCustomerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362927500438E8B21B74479D /* Pods_GopleCustomerUITests.framework */; };
+		717B8794FAD6521755EADEA8 /* Pods_GopleCustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35444B021D6795CC9AAE33F7 /* Pods_GopleCustomer.framework */; };
+		7FEA8C46AA4BD02835D0432C /* Pods_GopleCustomerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B8FD692116FD9A170898D2 /* Pods_GopleCustomerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E31A4131FE38804009C809E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E8F081D1FB96334001672EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E31A40D1FE38804009C809E;
+			remoteInfo = NotificationService;
+		};
+		0E8F083A1FB96334001672EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E8F081D1FB96334001672EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E8F08241FB96334001672EC;
+			remoteInfo = GopleCustomer;
+		};
+		0E8F08451FB96335001672EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E8F081D1FB96334001672EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E8F08241FB96334001672EC;
+			remoteInfo = GopleCustomer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E31A4191FE38804009C809E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0E31A4151FE38804009C809E /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E072CD11FDE79E80024F55B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0E1003B11FBA7A2400520779 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		0E1003B21FBA7A2400520779 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0E1003B31FBA7A2400520779 /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		0E1003BB1FBAB4A300520779 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0E15E6EF1FBABDDD00A948AD /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0E15E6F31FBAE06D00A948AD /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		0E31A40E1FE38804009C809E /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E31A4101FE38804009C809E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		0E31A4121FE38804009C809E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E31A41C1FE392E5009C809E /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
+		0E355F1D2003448E00A36325 /* HowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowViewController.swift; sourceTree = "<group>"; };
+		0E3B8D561FD7931800E872FF /* ChangePhoneController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePhoneController.xib; sourceTree = "<group>"; };
+		0E3B8D581FD7A7F100E872FF /* ChangePhoneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePhoneController.swift; sourceTree = "<group>"; };
+		0E3C8B9A1FECD8A800935EBB /* HomeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDetailViewController.swift; sourceTree = "<group>"; };
+		0E3C8B9C1FECFBB200935EBB /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		0E568E8D1FD11A7E0059B32C /* JoinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinController.swift; sourceTree = "<group>"; };
+		0E5A918E1FCE5517000CA2FF /* SaleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleController.swift; sourceTree = "<group>"; };
+		0E5A91901FCE5E2E000CA2FF /* BookmarkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkController.swift; sourceTree = "<group>"; };
+		0E5A91921FCE5FAA000CA2FF /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		0E66BE0E1FE0F01500F9578E /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
+		0E66BE121FE104B300F9578E /* ChangeScheduleController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeScheduleController.xib; sourceTree = "<group>"; };
+		0E66BE141FE1086500F9578E /* ChangeScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeScheduleController.swift; sourceTree = "<group>"; };
+		0E73E5B31FE216930017AD6C /* NewWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWebViewController.swift; sourceTree = "<group>"; };
+		0E73E5B51FE219290017AD6C /* AlaramController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlaramController.xib; sourceTree = "<group>"; };
+		0E73E5B71FE21A8F0017AD6C /* AlaramController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlaramController.swift; sourceTree = "<group>"; };
+		0E8AE0161FE795E700C8EC13 /* HamburgerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerController.swift; sourceTree = "<group>"; };
+		0E8F08251FB96334001672EC /* GopleCustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GopleCustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8F08281FB96334001672EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E8F082A1FB96334001672EC /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0E8F082D1FB96334001672EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E8F082F1FB96334001672EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E8F08321FB96334001672EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E8F08341FB96334001672EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8F08391FB96334001672EC /* GopleCustomerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GopleCustomerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8F083D1FB96335001672EC /* GopleCustomerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GopleCustomerTests.swift; sourceTree = "<group>"; };
+		0E8F083F1FB96335001672EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8F08441FB96335001672EC /* GopleCustomerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GopleCustomerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8F08481FB96335001672EC /* GopleCustomerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GopleCustomerUITests.swift; sourceTree = "<group>"; };
+		0E8F084A1FB96335001672EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8F08561FB96348001672EC /* GopleCustomer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GopleCustomer.entitlements; sourceTree = "<group>"; };
+		0E8F08591FB97878001672EC /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		0E8F085B1FB97979001672EC /* GopleCustomer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GopleCustomer-Bridging-Header.h"; sourceTree = "<group>"; };
+		0E92C61B1FD152CA00C4C86E /* Extension+HttpCookieStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+HttpCookieStorage.swift"; sourceTree = "<group>"; };
+		0E9758AD1FCF9D8E00C4CDED /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		0ECABA8F1FBC0CCA00445315 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0ECABA931FBC0D7100445315 /* CheckListTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListTableController.swift; sourceTree = "<group>"; };
+		0ECABA951FBC124D00445315 /* PushTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTableController.swift; sourceTree = "<group>"; };
+		0ECABA991FBC29BB00445315 /* NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
+		0ECABA9B1FBC2E6100445315 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0ECABAA21FBC34CA00445315 /* NaverAuth.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NaverAuth.bundle; sourceTree = "<group>"; };
+		0ECABAA41FBC34D200445315 /* NaverThirdPartyConstantsForApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverThirdPartyConstantsForApp.h; sourceTree = "<group>"; };
+		0ECABAA51FBC34D200445315 /* NaverThirdPartyLoginConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverThirdPartyLoginConnection.h; sourceTree = "<group>"; };
+		0ECABAA61FBC34D200445315 /* NLoginThirdPartyOAuth20InAppBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLoginThirdPartyOAuth20InAppBrowserViewController.h; sourceTree = "<group>"; };
+		0ECABAA71FBC34D300445315 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLoginThirdPartyOAuth20InAppBrowserViewController.m; sourceTree = "<group>"; };
+		0ECABAA81FBC34D300445315 /* libNaverLogin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNaverLogin.a; sourceTree = "<group>"; };
+		0EED4B151FD000BD00DB773F /* MyPageTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTableController.swift; sourceTree = "<group>"; };
+		0EED4B171FD000EF00DB773F /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		0EEF80901FCE766C00DE7691 /* DaehanB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DaehanB.otf; sourceTree = "<group>"; };
+		0EEF80911FCE766C00DE7691 /* DaehanR.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DaehanR.otf; sourceTree = "<group>"; };
+		1D5D9D647A3E3D26418532EA /* Pods-GopleCustomer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GopleCustomer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GopleCustomer/Pods-GopleCustomer.debug.xcconfig"; sourceTree = "<group>"; };
+		35444B021D6795CC9AAE33F7 /* Pods_GopleCustomer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GopleCustomer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362927500438E8B21B74479D /* Pods_GopleCustomerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GopleCustomerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		406DF8C1121D685C49F2149A /* Pods-GopleCustomerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GopleCustomerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GopleCustomerUITests/Pods-GopleCustomerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42F56C0E323F6A56AD571E3B /* Pods-GopleCustomer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GopleCustomer.release.xcconfig"; path = "Pods/Target Support Files/Pods-GopleCustomer/Pods-GopleCustomer.release.xcconfig"; sourceTree = "<group>"; };
+		48B8FD692116FD9A170898D2 /* Pods_GopleCustomerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GopleCustomerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A999AF679BF4C627ECA9B068 /* Pods-GopleCustomerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GopleCustomerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GopleCustomerTests/Pods-GopleCustomerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6B28978131D4CD617F1486D /* Pods-GopleCustomerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GopleCustomerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GopleCustomerUITests/Pods-GopleCustomerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1F44C179C27E9A8ED08A662 /* Pods-GopleCustomerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GopleCustomerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GopleCustomerTests/Pods-GopleCustomerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E31A40B1FE38804009C809E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8F08221FB96334001672EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECABA9C1FBC2E6100445315 /* MapKit.framework in Frameworks */,
+				717B8794FAD6521755EADEA8 /* Pods_GopleCustomer.framework in Frameworks */,
+				0ECABAAA1FBC34D300445315 /* libNaverLogin.a in Frameworks */,
+				0E8F085A1FB97878001672EC /* KakaoOpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8F08361FB96334001672EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEA8C46AA4BD02835D0432C /* Pods_GopleCustomerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8F08411FB96335001672EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5720AB14FB155DA09CFA621B /* Pods_GopleCustomerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1003B71FBA7A2A00520779 /* Used */ = {
+			isa = PBXGroup;
+			children = (
+				0EEF80921FCE767000DE7691 /* Font */,
+				0ECABA9D1FBC349900445315 /* NaverSDK */,
+				0E1003B11FBA7A2400520779 /* URL.swift */,
+				0E1003B31FBA7A2400520779 /* Method.swift */,
+				0E1003B21FBA7A2400520779 /* Extension.swift */,
+				0E92C61B1FD152CA00C4C86E /* Extension+HttpCookieStorage.swift */,
+				0E9758AD1FCF9D8E00C4CDED /* Variable.swift */,
+				0EED4B171FD000EF00DB773F /* NavigationController.swift */,
+				0E66BE0E1FE0F01500F9578E /* MonthYearPickerView.swift */,
+			);
+			path = Used;
+			sourceTree = "<group>";
+		};
+		0E1003BA1FBAB48D00520779 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0E15E6EF1FBABDDD00A948AD /* TabBarController.swift */,
+				0E8AE0121FE78EBA00C8EC13 /* Hamburger */,
+				0E3C8B9A1FECD8A800935EBB /* HomeDetailViewController.swift */,
+				0E73E5B31FE216930017AD6C /* NewWebViewController.swift */,
+				0E3C8B9C1FECFBB200935EBB /* CalenderViewController.swift */,
+				0E15E6F31FBAE06D00A948AD /* MapController.swift */,
+				0E072CD11FDE79E80024F55B /* SearchViewController.swift */,
+				0E66BE141FE1086500F9578E /* ChangeScheduleController.swift */,
+				0E73E5B71FE21A8F0017AD6C /* AlaramController.swift */,
+				0ECABA981FBC287700445315 /* MyPage */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		0E31A40F1FE38804009C809E /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				0E31A41C1FE392E5009C809E /* NotificationService.entitlements */,
+				0E31A4101FE38804009C809E /* NotificationService.swift */,
+				0E31A4121FE38804009C809E /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		0E8AE0121FE78EBA00C8EC13 /* Hamburger */ = {
+			isa = PBXGroup;
+			children = (
+				0E8AE0161FE795E700C8EC13 /* HamburgerController.swift */,
+				0E1003BB1FBAB4A300520779 /* HomeController.swift */,
+				0ECABA991FBC29BB00445315 /* NewsController.swift */,
+				0E5A918E1FCE5517000CA2FF /* SaleController.swift */,
+				0E5A91901FCE5E2E000CA2FF /* BookmarkController.swift */,
+				0EED4B151FD000BD00DB773F /* MyPageTableController.swift */,
+			);
+			path = Hamburger;
+			sourceTree = "<group>";
+		};
+		0E8AE0151FE78EF800C8EC13 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E8F082C1FB96334001672EC /* Main.storyboard */,
+				0E66BE121FE104B300F9578E /* ChangeScheduleController.xib */,
+				0E73E5B51FE219290017AD6C /* AlaramController.xib */,
+				0E8F08311FB96334001672EC /* LaunchScreen.storyboard */,
+				0E3B8D561FD7931800E872FF /* ChangePhoneController.xib */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0E8F081C1FB96334001672EC = {
+			isa = PBXGroup;
+			children = (
+				0E8F08271FB96334001672EC /* GopleCustomer */,
+				0E8F083C1FB96335001672EC /* GopleCustomerTests */,
+				0E8F08471FB96335001672EC /* GopleCustomerUITests */,
+				5627BBE019849019214E3D20 /* Pods */,
+				0E31A40F1FE38804009C809E /* NotificationService */,
+				5BF7478E7C3A10A7D67F91B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E8F08261FB96334001672EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E8F08251FB96334001672EC /* GopleCustomer.app */,
+				0E8F08391FB96334001672EC /* GopleCustomerTests.xctest */,
+				0E8F08441FB96335001672EC /* GopleCustomerUITests.xctest */,
+				0E31A40E1FE38804009C809E /* NotificationService.appex */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0E8F08271FB96334001672EC /* GopleCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				0ECABA8F1FBC0CCA00445315 /* GoogleService-Info.plist */,
+				0E8F08561FB96348001672EC /* GopleCustomer.entitlements */,
+				0E8F08281FB96334001672EC /* AppDelegate.swift */,
+				0E8F085B1FB97979001672EC /* GopleCustomer-Bridging-Header.h */,
+				0E1003B71FBA7A2A00520779 /* Used */,
+				0E355F1D2003448E00A36325 /* HowViewController.swift */,
+				0E8F082A1FB96334001672EC /* LoginController.swift */,
+				0E568E8D1FD11A7E0059B32C /* JoinController.swift */,
+				0ECABA931FBC0D7100445315 /* CheckListTableController.swift */,
+				0E1003BA1FBAB48D00520779 /* TabBar */,
+				0E8AE0151FE78EF800C8EC13 /* Storyboard */,
+				0E8F082F1FB96334001672EC /* Assets.xcassets */,
+				0E8F08341FB96334001672EC /* Info.plist */,
+			);
+			path = GopleCustomer;
+			sourceTree = "<group>";
+		};
+		0E8F083C1FB96335001672EC /* GopleCustomerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E8F083D1FB96335001672EC /* GopleCustomerTests.swift */,
+				0E8F083F1FB96335001672EC /* Info.plist */,
+			);
+			path = GopleCustomerTests;
+			sourceTree = "<group>";
+		};
+		0E8F08471FB96335001672EC /* GopleCustomerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E8F08261FB96334001672EC /* Products */,
+				0E8F08481FB96335001672EC /* GopleCustomerUITests.swift */,
+				0E8F084A1FB96335001672EC /* Info.plist */,
+			);
+			path = GopleCustomerUITests;
+			sourceTree = "<group>";
+		};
+		0ECABA981FBC287700445315 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				0E3B8D581FD7A7F100E872FF /* ChangePhoneController.swift */,
+				0ECABA951FBC124D00445315 /* PushTableController.swift */,
+				0E5A91921FCE5FAA000CA2FF /* WebViewController.swift */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		0ECABA9D1FBC349900445315 /* NaverSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0ECABAA21FBC34CA00445315 /* NaverAuth.bundle */,
+				0ECABAA11FBC34C200445315 /* thirdPartyModule */,
+			);
+			path = NaverSDK;
+			sourceTree = "<group>";
+		};
+		0ECABAA11FBC34C200445315 /* thirdPartyModule */ = {
+			isa = PBXGroup;
+			children = (
+				0ECABAA81FBC34D300445315 /* libNaverLogin.a */,
+				0ECABAA41FBC34D200445315 /* NaverThirdPartyConstantsForApp.h */,
+				0ECABAA51FBC34D200445315 /* NaverThirdPartyLoginConnection.h */,
+				0ECABAA61FBC34D200445315 /* NLoginThirdPartyOAuth20InAppBrowserViewController.h */,
+				0ECABAA71FBC34D300445315 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */,
+			);
+			path = thirdPartyModule;
+			sourceTree = "<group>";
+		};
+		0EEF80921FCE767000DE7691 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0EEF80901FCE766C00DE7691 /* DaehanB.otf */,
+				0EEF80911FCE766C00DE7691 /* DaehanR.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		5627BBE019849019214E3D20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D9D647A3E3D26418532EA /* Pods-GopleCustomer.debug.xcconfig */,
+				42F56C0E323F6A56AD571E3B /* Pods-GopleCustomer.release.xcconfig */,
+				D1F44C179C27E9A8ED08A662 /* Pods-GopleCustomerTests.debug.xcconfig */,
+				A999AF679BF4C627ECA9B068 /* Pods-GopleCustomerTests.release.xcconfig */,
+				B6B28978131D4CD617F1486D /* Pods-GopleCustomerUITests.debug.xcconfig */,
+				406DF8C1121D685C49F2149A /* Pods-GopleCustomerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BF7478E7C3A10A7D67F91B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ECABA9B1FBC2E6100445315 /* MapKit.framework */,
+				0E8F08591FB97878001672EC /* KakaoOpenSDK.framework */,
+				35444B021D6795CC9AAE33F7 /* Pods_GopleCustomer.framework */,
+				48B8FD692116FD9A170898D2 /* Pods_GopleCustomerTests.framework */,
+				362927500438E8B21B74479D /* Pods_GopleCustomerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E31A40D1FE38804009C809E /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E31A4181FE38804009C809E /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				0E31A40A1FE38804009C809E /* Sources */,
+				0E31A40B1FE38804009C809E /* Frameworks */,
+				0E31A40C1FE38804009C809E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = 0E31A40E1FE38804009C809E /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0E8F08241FB96334001672EC /* GopleCustomer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E8F084D1FB96335001672EC /* Build configuration list for PBXNativeTarget "GopleCustomer" */;
+			buildPhases = (
+				FF68C6615C196CB191DC6E27 /* [CP] Check Pods Manifest.lock */,
+				0E8F08211FB96334001672EC /* Sources */,
+				0E8F08221FB96334001672EC /* Frameworks */,
+				0E8F08231FB96334001672EC /* Resources */,
+				E3573055A4A4AFA1CA44BFD2 /* [CP] Embed Pods Frameworks */,
+				E58AF9288FFD46A7376D7FC0 /* [CP] Copy Pods Resources */,
+				0E31A4191FE38804009C809E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E31A4141FE38804009C809E /* PBXTargetDependency */,
+			);
+			name = GopleCustomer;
+			productName = GopleCustomer;
+			productReference = 0E8F08251FB96334001672EC /* GopleCustomer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E8F08381FB96334001672EC /* GopleCustomerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E8F08501FB96335001672EC /* Build configuration list for PBXNativeTarget "GopleCustomerTests" */;
+			buildPhases = (
+				3E96A686F7246BCA4596E97D /* [CP] Check Pods Manifest.lock */,
+				0E8F08351FB96334001672EC /* Sources */,
+				0E8F08361FB96334001672EC /* Frameworks */,
+				0E8F08371FB96334001672EC /* Resources */,
+				13CB60E8B6C3F0DB586A07C6 /* [CP] Embed Pods Frameworks */,
+				7B583D9D45F7651D45DCB10E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E8F083B1FB96334001672EC /* PBXTargetDependency */,
+			);
+			name = GopleCustomerTests;
+			productName = GopleCustomerTests;
+			productReference = 0E8F08391FB96334001672EC /* GopleCustomerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E8F08431FB96335001672EC /* GopleCustomerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E8F08531FB96335001672EC /* Build configuration list for PBXNativeTarget "GopleCustomerUITests" */;
+			buildPhases = (
+				CB1D2B01BABC85E32B59AE8B /* [CP] Check Pods Manifest.lock */,
+				0E8F08401FB96335001672EC /* Sources */,
+				0E8F08411FB96335001672EC /* Frameworks */,
+				0E8F08421FB96335001672EC /* Resources */,
+				979CE9185DF61BF4858FBEF6 /* [CP] Embed Pods Frameworks */,
+				A0AAECE8FFD4361118DA9C65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E8F08461FB96335001672EC /* PBXTargetDependency */,
+			);
+			name = GopleCustomerUITests;
+			productName = GopleCustomerUITests;
+			productReference = 0E8F08441FB96335001672EC /* GopleCustomerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E8F081D1FB96334001672EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "김민주";
+				TargetAttributes = {
+					0E31A40D1FE38804009C809E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					0E8F08241FB96334001672EC = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					0E8F08381FB96334001672EC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E8F08241FB96334001672EC;
+					};
+					0E8F08431FB96335001672EC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E8F08241FB96334001672EC;
+					};
+				};
+			};
+			buildConfigurationList = 0E8F08201FB96334001672EC /* Build configuration list for PBXProject "GopleCustomer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E8F081C1FB96334001672EC;
+			productRefGroup = 0E8F08261FB96334001672EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8F08241FB96334001672EC /* GopleCustomer */,
+				0E8F08381FB96334001672EC /* GopleCustomerTests */,
+				0E8F08431FB96335001672EC /* GopleCustomerUITests */,
+				0E31A40D1FE38804009C809E /* NotificationService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E31A40C1FE38804009C809E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8F08231FB96334001672EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3B8D571FD7931800E872FF /* ChangePhoneController.xib in Resources */,
+				0E66BE131FE104B300F9578E /* ChangeScheduleController.xib in Resources */,
+				0E8F08331FB96334001672EC /* LaunchScreen.storyboard in Resources */,
+				0E73E5B61FE219290017AD6C /* AlaramController.xib in Resources */,
+				0ECABAA31FBC34CA00445315 /* NaverAuth.bundle in Resources */,
+				0ECABA901FBC0CCA00445315 /* GoogleService-Info.plist in Resources */,
+				0EEF80941FCE767D00DE7691 /* DaehanR.otf in Resources */,
+				0E8F08301FB96334001672EC /* Assets.xcassets in Resources */,
+				0E8F082E1FB96334001672EC /* Main.storyboard in Resources */,
+				0EEF80931FCE767D00DE7691 /* DaehanB.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8F08371FB96334001672EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8F08421FB96335001672EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13CB60E8B6C3F0DB586A07C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GopleCustomerTests/Pods-GopleCustomerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E96A686F7246BCA4596E97D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GopleCustomerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B583D9D45F7651D45DCB10E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GopleCustomerTests/Pods-GopleCustomerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		979CE9185DF61BF4858FBEF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GopleCustomerUITests/Pods-GopleCustomerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0AAECE8FFD4361118DA9C65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GopleCustomerUITests/Pods-GopleCustomerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB1D2B01BABC85E32B59AE8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GopleCustomerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3573055A4A4AFA1CA44BFD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GopleCustomer/Pods-GopleCustomer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DKImagePickerController/DKImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLoader/SwiftLoader.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLoader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GopleCustomer/Pods-GopleCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58AF9288FFD46A7376D7FC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GopleCustomer/Pods-GopleCustomer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF68C6615C196CB191DC6E27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GopleCustomer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E31A40A1FE38804009C809E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E31A41F1FE39EF1009C809E /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8F08211FB96334001672EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3C8B9D1FECFBB200935EBB /* CalenderViewController.swift in Sources */,
+				0E3C8B9B1FECD8A800935EBB /* HomeDetailViewController.swift in Sources */,
+				0E5A91931FCE5FAA000CA2FF /* WebViewController.swift in Sources */,
+				0E9758AE1FCF9D8E00C4CDED /* Variable.swift in Sources */,
+				0ECABA961FBC124D00445315 /* PushTableController.swift in Sources */,
+				0E1003B61FBA7A2400520779 /* Method.swift in Sources */,
+				0E568E8E1FD11A7E0059B32C /* JoinController.swift in Sources */,
+				0E15E6F01FBABDDD00A948AD /* TabBarController.swift in Sources */,
+				0E1003BC1FBAB4A300520779 /* HomeController.swift in Sources */,
+				0E8AE0171FE795E700C8EC13 /* HamburgerController.swift in Sources */,
+				0ECABAA91FBC34D300445315 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */,
+				0ECABA9A1FBC29BB00445315 /* NewsController.swift in Sources */,
+				0E92C61C1FD152CA00C4C86E /* Extension+HttpCookieStorage.swift in Sources */,
+				0E355F1E2003448E00A36325 /* HowViewController.swift in Sources */,
+				0E5A918F1FCE5517000CA2FF /* SaleController.swift in Sources */,
+				0E8F082B1FB96334001672EC /* LoginController.swift in Sources */,
+				0E66BE0F1FE0F01500F9578E /* MonthYearPickerView.swift in Sources */,
+				0E072CD21FDE79E80024F55B /* SearchViewController.swift in Sources */,
+				0E73E5B81FE21A8F0017AD6C /* AlaramController.swift in Sources */,
+				0E73E5B41FE216930017AD6C /* NewWebViewController.swift in Sources */,
+				0E31A41E1FE39D27009C809E /* NotificationService.swift in Sources */,
+				0E8F08291FB96334001672EC /* AppDelegate.swift in Sources */,
+				0EED4B161FD000BD00DB773F /* MyPageTableController.swift in Sources */,
+				0E1003B41FBA7A2400520779 /* URL.swift in Sources */,
+				0E3B8D591FD7A7F200E872FF /* ChangePhoneController.swift in Sources */,
+				0E66BE151FE1086500F9578E /* ChangeScheduleController.swift in Sources */,
+				0E15E6F41FBAE06D00A948AD /* MapController.swift in Sources */,
+				0E1003B51FBA7A2400520779 /* Extension.swift in Sources */,
+				0E5A91911FCE5E2E000CA2FF /* BookmarkController.swift in Sources */,
+				0EED4B181FD000EF00DB773F /* NavigationController.swift in Sources */,
+				0ECABA941FBC0D7100445315 /* CheckListTableController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8F08351FB96334001672EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8F083E1FB96335001672EC /* GopleCustomerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8F08401FB96335001672EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8F08491FB96335001672EC /* GopleCustomerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E31A4141FE38804009C809E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E31A40D1FE38804009C809E /* NotificationService */;
+			targetProxy = 0E31A4131FE38804009C809E /* PBXContainerItemProxy */;
+		};
+		0E8F083B1FB96334001672EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E8F08241FB96334001672EC /* GopleCustomer */;
+			targetProxy = 0E8F083A1FB96334001672EC /* PBXContainerItemProxy */;
+		};
+		0E8F08461FB96335001672EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E8F08241FB96334001672EC /* GopleCustomer */;
+			targetProxy = 0E8F08451FB96335001672EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E8F082C1FB96334001672EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E8F082D1FB96334001672EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E8F08311FB96334001672EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E8F08321FB96334001672EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E31A4161FE38804009C809E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REEXP68R7U;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghsoft.ios.GopleCustomer.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E31A4171FE38804009C809E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REEXP68R7U;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghsoft.ios.GopleCustomer.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E8F084B1FB96335001672EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E8F084C1FB96335001672EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E8F084E1FB96335001672EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5D9D647A3E3D26418532EA /* Pods-GopleCustomer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GopleCustomer/GopleCustomer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REEXP68R7U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GopleCustomer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GopleCustomer/Used/NaverSDK/thirdPartyModule",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghsoft.ios.GopleCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GopleCustomer/GopleCustomer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E8F084F1FB96335001672EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F56C0E323F6A56AD571E3B /* Pods-GopleCustomer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = GopleCustomer/GopleCustomer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REEXP68R7U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = GopleCustomer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GopleCustomer/Used/NaverSDK/thirdPartyModule",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghsoft.ios.GopleCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GopleCustomer/GopleCustomer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E8F08511FB96335001672EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F44C179C27E9A8ED08A662 /* Pods-GopleCustomerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E2KLS9262;
+				INFOPLIST_FILE = GopleCustomerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghsoft.ios.GopleCustomerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GopleCustomer.app/GopleCustomer";
+			};
+			name = Debug;
+		};
+		0E8F08521FB96335001672EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A999AF679BF4C627ECA9B068 /* Pods-GopleCustomerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E2KLS9262;
+				INFOPLIST_FILE = GopleCustomerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghsoft.ios.GopleCustomerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GopleCustomer.app/GopleCustomer";
+			};
+			name = Release;
+		};
+		0E8F08541FB96335001672EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B28978131D4CD617F1486D /* Pods-GopleCustomerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E2KLS9262;
+				INFOPLIST_FILE = GopleCustomerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghsoft.ios.GopleCustomerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GopleCustomer;
+			};
+			name = Debug;
+		};
+		0E8F08551FB96335001672EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406DF8C1121D685C49F2149A /* Pods-GopleCustomerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E2KLS9262;
+				INFOPLIST_FILE = GopleCustomerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghsoft.ios.GopleCustomerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GopleCustomer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E31A4181FE38804009C809E /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E31A4161FE38804009C809E /* Debug */,
+				0E31A4171FE38804009C809E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E8F08201FB96334001672EC /* Build configuration list for PBXProject "GopleCustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8F084B1FB96335001672EC /* Debug */,
+				0E8F084C1FB96335001672EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E8F084D1FB96335001672EC /* Build configuration list for PBXNativeTarget "GopleCustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8F084E1FB96335001672EC /* Debug */,
+				0E8F084F1FB96335001672EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E8F08501FB96335001672EC /* Build configuration list for PBXNativeTarget "GopleCustomerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8F08511FB96335001672EC /* Debug */,
+				0E8F08521FB96335001672EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E8F08531FB96335001672EC /* Build configuration list for PBXNativeTarget "GopleCustomerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8F08541FB96335001672EC /* Debug */,
+				0E8F08551FB96335001672EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E8F081D1FB96334001672EC /* Project object */;
+}

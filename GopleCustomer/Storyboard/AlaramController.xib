@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DaehanB.otf">
+            <string>Daehan-Bold</string>
+        </array>
+        <array key="DaehanR.otf">
+            <string>Daehan</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlaramController" customModule="GopleCustomer" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="3Cz-pZ-Paf" id="CSW-24-mbd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="312" height="163"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Cz-pZ-Paf">
+                    <rect key="frame" x="0.0" y="0.0" width="312" height="163"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;예약 알림&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bik-xh-cKD">
+                            <rect key="frame" x="120" y="41" width="72.5" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="TW9-TW-rCS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Daehan-Bold" family="Daehan" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="스케줄 예약을 완료하시겠습니까?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRC-v2-swN">
+                            <rect key="frame" x="53" y="77" width="206.5" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="irQ-Df-dFw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Daehan" family="Daehan" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="※스케줄 변동 시 각 업체마다 위약금이 발생할 수 있습니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUF-kn-Xa0">
+                            <rect key="frame" x="22.5" y="100" width="267.5" height="12"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="12" id="QEw-No-4KL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Daehan" family="Daehan" pointSize="11"/>
+                            <color key="textColor" red="0.96078431372549022" green="0.10588235294117647" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="eUF-kn-Xa0" firstAttribute="top" secondItem="lRC-v2-swN" secondAttribute="bottom" constant="9" id="1Yd-Ms-zm2"/>
+                        <constraint firstItem="bik-xh-cKD" firstAttribute="centerX" secondItem="3Cz-pZ-Paf" secondAttribute="centerX" id="Iry-un-Pp7"/>
+                        <constraint firstItem="bik-xh-cKD" firstAttribute="top" secondItem="3Cz-pZ-Paf" secondAttribute="top" constant="41" id="dZo-t5-eZW"/>
+                        <constraint firstItem="eUF-kn-Xa0" firstAttribute="centerX" secondItem="3Cz-pZ-Paf" secondAttribute="centerX" id="gNV-27-ghd"/>
+                        <constraint firstAttribute="width" constant="312" id="iLE-3m-HPA"/>
+                        <constraint firstItem="lRC-v2-swN" firstAttribute="top" secondItem="bik-xh-cKD" secondAttribute="bottom" constant="22" id="jRl-s4-hfV"/>
+                        <constraint firstAttribute="height" constant="163" id="mf2-bo-xhg"/>
+                        <constraint firstItem="lRC-v2-swN" firstAttribute="centerX" secondItem="3Cz-pZ-Paf" secondAttribute="centerX" id="vWq-JM-Ytq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3Cz-pZ-Paf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CxU-qI-pic"/>
+                <constraint firstItem="3Cz-pZ-Paf" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="jAD-3k-pm7"/>
+                <constraint firstItem="3Cz-pZ-Paf" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="pQn-FP-E4U"/>
+                <constraint firstItem="3Cz-pZ-Paf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zSP-Me-ecn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26" y="52.5"/>
+        </view>
+    </objects>
+</document>

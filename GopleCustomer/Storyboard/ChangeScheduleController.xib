@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DaehanB.otf">
+            <string>Daehan-Bold</string>
+        </array>
+        <array key="DaehanR.otf">
+            <string>Daehan</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChangeScheduleController" customModule="GopleCustomer" customModuleProvider="target">
+            <connections>
+                <outlet property="delete" destination="M9V-jF-vYK" id="e3G-Ox-qwk"/>
+                <outlet property="view" destination="Ja1-iO-5MY" id="M9Y-bQ-cI8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="279"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ja1-iO-5MY">
+                    <rect key="frame" x="0.0" y="0.0" width="345" height="279"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9V-jF-vYK">
+                            <rect key="frame" x="302" y="7" width="34" height="33"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="34" id="Sqa-fX-KnZ"/>
+                                <constraint firstAttribute="height" constant="33" id="hyj-8G-1kY"/>
+                            </constraints>
+                            <state key="normal" image="alert_delete"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="스케줄 변경 시 유의사항" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueZ-k4-BTc">
+                            <rect key="frame" x="82.5" y="58" width="180.5" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="NqK-tH-xaD"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Daehan-Bold" family="Daehan" pointSize="19"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbox" translatesAutoresizingMaskIntoConstraints="NO" id="sBq-ba-5eD">
+                            <rect key="frame" x="65" y="70" width="214" height="11"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="11" id="go2-ff-7fD"/>
+                                <constraint firstAttribute="width" constant="214" id="obx-ch-mol"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="스튜디오 촬영일 변경시 메이크업샵, 드레스샵" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGF-Z3-btm">
+                            <rect key="frame" x="57.5" y="116" width="232" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="Xa8-uV-p5b"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Daehan" family="Daehan" pointSize="13"/>
+                            <color key="textColor" red="0.13725490196078433" green="0.13725490196078433" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="본식이 취소 및 변경 된 경우 드레스샵, 메이크업샵, 본식사진," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5q-e2-HZY">
+                            <rect key="frame" x="18.5" y="178" width="310" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="slh-0c-Map"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Daehan" family="Daehan" pointSize="13"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="부케, 한복, DVD영상, 주례, 전문MC, 웨딩연주, 웨딩카등" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ml-Z8-lXL">
+                            <rect key="frame" x="26" y="202" width="293" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="SS4-5W-onG"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Daehan" family="Daehan" pointSize="13"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="웨딩관련 업체들을 모두 취소 및 변경 해야합니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28m-qF-sTb">
+                            <rect key="frame" x="47.5" y="226" width="250.5" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="G7b-xj-SQY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Daehan" family="Daehan" pointSize="13"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="일정도 변경하셔야합니다" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCQ-QE-9qS">
+                            <rect key="frame" x="109.5" y="140" width="127.5" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="29y-8b-oRn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Daehan" family="Daehan" pointSize="13"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="M9V-jF-vYK" secondAttribute="trailing" constant="9" id="0Yh-94-sh6"/>
+                        <constraint firstItem="ueZ-k4-BTc" firstAttribute="centerX" secondItem="Ja1-iO-5MY" secondAttribute="centerX" id="11i-FR-eez"/>
+                        <constraint firstItem="rCQ-QE-9qS" firstAttribute="top" secondItem="xGF-Z3-btm" secondAttribute="bottom" constant="10" id="6Z6-dO-C8k"/>
+                        <constraint firstItem="xGF-Z3-btm" firstAttribute="top" secondItem="ueZ-k4-BTc" secondAttribute="bottom" constant="37" id="GwR-3y-m37"/>
+                        <constraint firstItem="K5q-e2-HZY" firstAttribute="top" secondItem="rCQ-QE-9qS" secondAttribute="bottom" constant="24" id="Gwy-c8-II3"/>
+                        <constraint firstItem="ueZ-k4-BTc" firstAttribute="top" secondItem="Ja1-iO-5MY" secondAttribute="top" constant="58" id="IDP-ai-a0U"/>
+                        <constraint firstItem="xGF-Z3-btm" firstAttribute="centerX" secondItem="Ja1-iO-5MY" secondAttribute="centerX" id="JEz-t4-oeD"/>
+                        <constraint firstItem="1Ml-Z8-lXL" firstAttribute="centerX" secondItem="Ja1-iO-5MY" secondAttribute="centerX" id="OgS-Bw-0LH"/>
+                        <constraint firstItem="28m-qF-sTb" firstAttribute="top" secondItem="1Ml-Z8-lXL" secondAttribute="bottom" constant="10" id="Ox4-4R-4Vo"/>
+                        <constraint firstAttribute="height" constant="279" id="PcF-Fy-sU7"/>
+                        <constraint firstItem="1Ml-Z8-lXL" firstAttribute="top" secondItem="K5q-e2-HZY" secondAttribute="bottom" constant="10" id="Ws2-D7-y0O"/>
+                        <constraint firstItem="28m-qF-sTb" firstAttribute="centerX" secondItem="Ja1-iO-5MY" secondAttribute="centerX" id="dim-ad-Jjm"/>
+                        <constraint firstItem="sBq-ba-5eD" firstAttribute="centerX" secondItem="Ja1-iO-5MY" secondAttribute="centerX" id="gri-t8-BUE"/>
+                        <constraint firstItem="M9V-jF-vYK" firstAttribute="top" secondItem="Ja1-iO-5MY" secondAttribute="top" constant="7" id="nhY-tq-lvw"/>
+                        <constraint firstAttribute="width" constant="345" id="oed-uh-G6e"/>
+                        <constraint firstItem="K5q-e2-HZY" firstAttribute="centerX" secondItem="Ja1-iO-5MY" secondAttribute="centerX" id="pZd-1j-ISa"/>
+                        <constraint firstItem="rCQ-QE-9qS" firstAttribute="centerX" secondItem="Ja1-iO-5MY" secondAttribute="centerX" id="s3l-sm-Me3"/>
+                        <constraint firstItem="xGF-Z3-btm" firstAttribute="top" secondItem="sBq-ba-5eD" secondAttribute="bottom" constant="35" id="vwh-lo-4fG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Ja1-iO-5MY" secondAttribute="trailing" id="4IU-Kj-Ako"/>
+                <constraint firstAttribute="bottom" secondItem="Ja1-iO-5MY" secondAttribute="bottom" id="8nf-W8-Uoc"/>
+                <constraint firstItem="Ja1-iO-5MY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ADw-Y8-Whu"/>
+                <constraint firstItem="Ja1-iO-5MY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Khw-Wa-Sly"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="alert_delete" width="34" height="33"/>
+        <image name="yellowbox" width="214" height="10"/>
+    </resources>
+</document>
